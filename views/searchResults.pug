@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  body
+    h1 #{title}
+    ul
+     li 
+      span departure
+      span Flight
+      span route
+     each flight in flightsData
+      li 
+        span #{flight.currentDepTime}
+        span #{flight.flightNumber}
+        span #{flight.originCode} --> #{flight.destinationCode}

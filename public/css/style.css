@@ -1,0 +1,9 @@
+li{
+    list-style-type: none;
+}
+li span{
+    display: inline-block;
+    padding: 0.5% 0.5%;
+    width: 10%;
+    
+}
